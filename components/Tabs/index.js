@@ -19,7 +19,7 @@ const newTabs = data => {
     return tab;
 }
 
-const trending = document.querySelector('.title')
+const trending = document.querySelector('.topics')
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
         .then((response) => {
